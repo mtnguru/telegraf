@@ -1,0 +1,5 @@
+rm /tmp/telegraf-cabin-edge.log
+rm /tmp/output
+$fs/telegraf --config tce.conf --debug
+#./telegraf --config $ta/are.conf --debug --test --once
+vi /tmp/telegraf-cabin-edge.log

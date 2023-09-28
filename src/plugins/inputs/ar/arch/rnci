@@ -1,0 +1,5 @@
+rm /tmp/ar.log
+rm /tmp/output
+$ts/telegraf --config tci.conf --debug
+#./telegraf --config tci.conf --debug --test --once
+vi /tmp/ar.log

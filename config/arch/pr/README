@@ -1,0 +1,16 @@
+
+This Starlark processor is used when loading Sparkplug B protobuf messages into InfluxDB.  The data source is a Opto22 Groov EPIC controller.  It does the following:
+
+  - Resolves the metric name using a numeric alias 
+
+    When the EPIC MQTT client is started it sends a DBIRTH message that lists all metrics configured on the controller and includes a sequential numeric alias to reference it by.  This processor stores that information in the array states["aliases"].
+
+    When subsequent DDATA messages are published, the numeric alias is used to find the stored metric name in the array states["aliases"].
+
+ - Splits the MQTT topic into 5 fields which are then used as tags in InfluxDB.  
+ - Splits the metric name into fields which can be as tags in InfluxDB.
+
+Telegraf.conf file configuration
+
+
+

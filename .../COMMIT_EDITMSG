@@ -1,0 +1,53 @@
+Initial Commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: James Sorensen <js@firefly.firefly.starbase>
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   artifacts/telegraf-1.20.0/etc/logrotate.d/telegraf
+#	new file:   artifacts/telegraf-1.20.0/etc/telegraf/telegraf.conf
+#	new file:   artifacts/telegraf-1.20.0/usr/bin/telegraf
+#	new file:   artifacts/telegraf-1.20.0/usr/lib/telegraf/scripts/init.sh
+#	new file:   artifacts/telegraf-1.20.0/usr/lib/telegraf/scripts/telegraf.service
+#	new file:   artifacts/telegraf-1.20.0_bea842b3_linux_amd64 (1).tar.gz
+#	new file:   artifacts/telegraf-1.20.0_bea842b3_linux_amd64.tar.gz
+#	new file:   bin/telegraf
+#	new file:   bin/telegraf.arm
+#	new file:   config/ar.starlark
+#	new file:   config/edge.conf
+#	new file:   config/epic.starlark
+#	new file:   config/file-protobuf.conf
+#	new file:   config/file-starlark.conf
+#	new file:   config/pr/README
+#	new file:   config/pr/epic.influx
+#	new file:   config/pr/epic.starlark
+#	new file:   config/pr/file-protobuf.conf
+#	new file:   config/pr/file-starlark.conf
+#	new file:   config/pr/sp
+#	new file:   config/pr/sparkplug.conf
+#	new file:   config/pr/sparkplug.star
+#	new file:   config/pr/sparkplug_b.proto
+#	new file:   config/sparkplug.starlark
+#	new file:   config/sparkplug_b.proto
+#	new file:   config/telegraf-acton-inst.conf
+#	new file:   config/telegraf-starbase-edge.conf
+#	new file:   config/telegraf-starbase-inst.conf
+#	new file:   config/telegraf-starbase-system.conf
+#	new file:   downloads/telegraf-1.19.1/etc/logrotate.d/telegraf
+#	new file:   downloads/telegraf-1.19.1/etc/telegraf/telegraf.conf
+#	new file:   downloads/telegraf-1.19.1/usr/bin/telegraf
+#	new file:   downloads/telegraf-1.19.1/usr/lib/telegraf/scripts/init.sh
+#	new file:   downloads/telegraf-1.19.1/usr/lib/telegraf/scripts/telegraf.service
+#	new file:   downloads/telegraf-1.19.1_linux_armhf.tar.gz
+#	new file:   services/telegraf-acton-edge.service
+#	new file:   services/telegraf-acton-inst.service
+#	new file:   services/telegraf-starbase-edge.service
+#	new file:   services/telegraf-starbase-inst.service
+#	new file:   services/telegraf-starbase-system.service
+#

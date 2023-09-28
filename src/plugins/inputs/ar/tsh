@@ -1,0 +1,5 @@
+rm /tmp/ar.log
+rm /tmp/output
+cd /home/sh/data
+$fs/telegraf --config $fa/tsh.conf --debug --test --once
+#vi /tmp/ar.log

@@ -1,0 +1,8 @@
+edge,host=firefly,topic=spBv1.0/SF/DDATA/epiclc/Exp501 type=9i,value=22.247711,alias=10i 1626475876000000000
+edge,host=firefly,topic=spBv1.0/SF/DDATA/epiclc/Exp501 alias=10i,type=9i,value=22.231323 1626475877000000000
+edge,host=firefly,topic=spBv1.0/SF/DBIRTH/epiclc/Exp501 type=9i,name="Strategy/IO/I_Ch_TC_Right",alias=9i 1626475880000000000
+edge,host=firefly,topic=spBv1.0/SF/DBIRTH/epiclc/Exp501 value=22.200958,name="Strategy/IO/I_Ch_TC_Top_C",type=9i,alias=10i 1626475881000000000
+edge,host=firefly,topic=spBv1.0/SF/DDATA/epiclc/Exp501 alias=10i,type=9i,value=22.177643 1626475884000000000
+edge,host=firefly,topic=spBv1.0/SF/DDATA/epiclc/Exp501 type=9i,value=22.231903,alias=10i 1626475885000000000
+edge,host=firefly,topic=spBv1.0/SF/DDATA/epiclc/Exp501 value=22.165192,alias=10i,type=9i 1626475895000000000
+edge,host=firefly,topic=spBv1.0/SF/DDATA/epiclc/Exp501 alias=10i,type=9i,value=22.127106 1626475896000000000

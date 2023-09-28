@@ -1,0 +1,3 @@
+rm /tmp/tcn.log
+rm /tmp/output
+$fs/telegraf --config $fa/tcn.conf --debug --test-wait 1000

@@ -1,0 +1,4 @@
+rm /tmp/ar.log
+rm /tmp/output
+cd /apps/data/expt/20210901
+$ts/telegraf --config $ta/ari.conf --debug --test --once

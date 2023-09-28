@@ -1,0 +1,6 @@
+rm am.log
+rm am.log1
+rm am.data
+
+$fs/telegraf --config am.conf --debug 
+#vi am.log

@@ -1,0 +1,6 @@
+rm /tmp/ar.log
+rm /tmp/output
+cd /apps/data/expt/201904130919
+#$fs/telegraf --config $fa/tss.conf --debug --once
+$fs/telegraf --config $fa/tss.conf --once
+#vi /tmp/ar.log

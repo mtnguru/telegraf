@@ -1,0 +1,5 @@
+C,Component=Ch,Datatype=IO,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_TC_Top_C,MsgType=DBIRTH,Position=Top,Reactor=SF,Source=Strategy value=22.200958 1626475881000000000
+C,Component=Ch,Datatype=IO,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_TC_Top_C,MsgType=DDATA,Position=Top,Reactor=SF,Source=Strategy value=22.177643 1626475884000000000
+C,Component=Ch,Datatype=IO,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_TC_Top_C,MsgType=DDATA,Position=Top,Reactor=SF,Source=Strategy value=22.231903 1626475885000000000
+C,Component=Ch,Datatype=IO,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_TC_Top_C,MsgType=DDATA,Position=Top,Reactor=SF,Source=Strategy value=22.165192 1626475895000000000
+C,Component=Ch,Datatype=IO,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_TC_Top_C,MsgType=DDATA,Position=Top,Reactor=SF,Source=Strategy value=22.127106 1626475896000000000

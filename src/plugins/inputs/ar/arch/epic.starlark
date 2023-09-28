@@ -1,0 +1,74 @@
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Control/Rebirth value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Control/Next\ MQTT\ Server value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Control/Current\ MQTT\ Server value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Properties/Hardware\ Make value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Properties/Device\ Type value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Properties/Software\ Version value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Control/Next\ MQTT\ Server value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Control/Restart\ Edge\ Node value=0 1626358328000000000
+Torr,Component=Ch,Device=Baratron,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_Baratron_Torr,Reactor=SF value=1.2728138 1626358328000000000
+On,Component=Ch,Device=LV80,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_LV80_On,Reactor=SF value=0.003973007 1626358328000000000
+C,Component=Ch,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_TC_Top_C,Position=Top,Reactor=SF value=24.16632 1626358328000000000
+Ct,Component=Expt,Device=DL,EdgeID=epiclc,Experiment=Exp501,Metric=M_Expt_DL_Ct,Reactor=SF,name=Variables/M_Expt_DL_Ct value=0 1626358328000000000
+PID,Component=Ch,Device=Butterfly,EdgeID=epiclc,Experiment=Exp501,Metric=PI_Ch_Butterfly_PID,Reactor=SF,name=Variables/PI_Ch_Butterfly_PID value=0 1626358328000000000
+mtorr,Component=Ch,Device=PID,EdgeID=epiclc,Experiment=Exp501,Metric=SP_Ch_PID_mtorr,Reactor=SF,name=Variables/SP_Ch_PID_mtorr value=0.001 1626358328000000000
+V,Component=PS,Device=Output,EdgeID=epiclc,Experiment=Exp501,Metric=SP_PS_Output_V,Reactor=SF,name=Variables/SP_PS_Output_V value=24.174103 1626358328000000000
+s,Component=Expt,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=T_Expt_TC_s,Reactor=SF,name=Variables/T_Expt_TC_s value=200 1626358328000000000
+edge,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Properties/Part\ Number value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Properties/Controller\ Firmware\ Version value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Properties/Strategy\ Title value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Properties/Strategy\ CRC value=0 1626358328000000000
+unknown,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Control/Scanner\ Interval\ Ms value=1000 1626358328000000000
+unknown,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Control/Additional\ Host\ Tasks value=0 1626358328000000000
+unknown,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Properties/Strategy\ Tag\ Access\ Time\ Ms value=6 1626358328000000000
+unknown,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Properties/Strategy\ Write\ Queue\ Depth value=0 1626358328000000000
+Torr,Component=Ch,Device=Baratron,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_Baratron_Torr,Reactor=SF value=1.2738924 1626358329000000000
+On,Component=Ch,Device=LV80,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_LV80_On,Reactor=SF value=0.0030231476 1626358329000000000
+C,Component=Ch,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_TC_Top_C,Position=Top,Reactor=SF value=24.203125 1626358329000000000
+V,Component=PS,Device=Output,EdgeID=epiclc,Experiment=Exp501,Metric=SP_PS_Output_V,Reactor=SF value=24.211914 1626358329000000000
+Torr,Component=Ch,Device=Baratron,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_Baratron_Torr,Reactor=SF value=1.2748661 1626358330000000000
+On,Component=Ch,Device=LV80,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_LV80_On,Reactor=SF value=0.0031719208 1626358330000000000
+C,Component=Ch,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_TC_Top_C,Position=Top,Reactor=SF value=24.154877 1626358330000000000
+V,Component=PS,Device=Output,EdgeID=epiclc,Experiment=Exp501,Metric=SP_PS_Output_V,Reactor=SF value=24.21524 1626358330000000000
+Torr,Component=Ch,Device=Baratron,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_Baratron_Torr,Reactor=SF value=1.2746315 1626358331000000000
+On,Component=Ch,Device=LV80,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_LV80_On,Reactor=SF value=0.004579544 1626358331000000000
+C,Component=Ch,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_TC_Top_C,Position=Top,Reactor=SF value=24.183044 1626358331000000000
+V,Component=PS,Device=Output,EdgeID=epiclc,Experiment=Exp501,Metric=SP_PS_Output_V,Reactor=SF value=24.194794 1626358331000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Control/Rebirth value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Control/Next\ MQTT\ Server value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Control/Current\ MQTT\ Server value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Properties/Hardware\ Make value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Properties/Device\ Type value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Properties/Software\ Version value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Control/Next\ MQTT\ Server value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=xx,Reactor=SF,name=Control/Restart\ Edge\ Node value=0 1626358328000000000
+Torr,Component=Ch,Device=Baratron,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_Baratron_Torr,Reactor=SF value=1.2728138 1626358328000000000
+On,Component=Ch,Device=LV80,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_LV80_On,Reactor=SF value=0.003973007 1626358328000000000
+C,Component=Ch,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_TC_Top_C,Position=Top,Reactor=SF value=24.16632 1626358328000000000
+Ct,Component=Expt,Device=DL,EdgeID=epiclc,Experiment=Exp501,Metric=M_Expt_DL_Ct,Reactor=SF,name=Variables/M_Expt_DL_Ct value=0 1626358328000000000
+PID,Component=Ch,Device=Butterfly,EdgeID=epiclc,Experiment=Exp501,Metric=PI_Ch_Butterfly_PID,Reactor=SF,name=Variables/PI_Ch_Butterfly_PID value=0 1626358328000000000
+mtorr,Component=Ch,Device=PID,EdgeID=epiclc,Experiment=Exp501,Metric=SP_Ch_PID_mtorr,Reactor=SF,name=Variables/SP_Ch_PID_mtorr value=0.001 1626358328000000000
+V,Component=PS,Device=Output,EdgeID=epiclc,Experiment=Exp501,Metric=SP_PS_Output_V,Reactor=SF,name=Variables/SP_PS_Output_V value=24.174103 1626358328000000000
+s,Component=Expt,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=T_Expt_TC_s,Reactor=SF,name=Variables/T_Expt_TC_s value=200 1626358328000000000
+edge,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Properties/Part\ Number value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Properties/Controller\ Firmware\ Version value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Properties/Strategy\ Title value=0 1626358328000000000
+edge,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Properties/Strategy\ CRC value=0 1626358328000000000
+unknown,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Control/Scanner\ Interval\ Ms value=1000 1626358328000000000
+unknown,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Control/Additional\ Host\ Tasks value=0 1626358328000000000
+unknown,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Properties/Strategy\ Tag\ Access\ Time\ Ms value=6 1626358328000000000
+unknown,EdgeID=epiclc,Experiment=Exp501,Reactor=SF,name=Properties/Strategy\ Write\ Queue\ Depth value=0 1626358328000000000
+Torr,Component=Ch,Device=Baratron,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_Baratron_Torr,Reactor=SF value=1.2738924 1626358329000000000
+On,Component=Ch,Device=LV80,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_LV80_On,Reactor=SF value=0.0030231476 1626358329000000000
+C,Component=Ch,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_TC_Top_C,Position=Top,Reactor=SF value=24.203125 1626358329000000000
+V,Component=PS,Device=Output,EdgeID=epiclc,Experiment=Exp501,Metric=SP_PS_Output_V,Reactor=SF value=24.211914 1626358329000000000
+Torr,Component=Ch,Device=Baratron,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_Baratron_Torr,Reactor=SF value=1.2748661 1626358330000000000
+On,Component=Ch,Device=LV80,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_LV80_On,Reactor=SF value=0.0031719208 1626358330000000000
+C,Component=Ch,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_TC_Top_C,Position=Top,Reactor=SF value=24.154877 1626358330000000000
+V,Component=PS,Device=Output,EdgeID=epiclc,Experiment=Exp501,Metric=SP_PS_Output_V,Reactor=SF value=24.21524 1626358330000000000
+Torr,Component=Ch,Device=Baratron,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_Baratron_Torr,Reactor=SF value=1.2746315 1626358331000000000
+On,Component=Ch,Device=LV80,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_LV80_On,Reactor=SF value=0.004579544 1626358331000000000
+C,Component=Ch,Device=TC,EdgeID=epiclc,Experiment=Exp501,Metric=I_Ch_TC_Top_C,Position=Top,Reactor=SF value=24.183044 1626358331000000000
+V,Component=PS,Device=Output,EdgeID=epiclc,Experiment=Exp501,Metric=SP_PS_Output_V,Reactor=SF value=24.194794 1626358331000000000

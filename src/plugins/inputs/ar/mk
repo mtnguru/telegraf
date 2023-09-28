@@ -1,0 +1,2 @@
+cd $fs
+time make

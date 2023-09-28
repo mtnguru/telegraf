@@ -1,0 +1,85 @@
+# Telegraf Configuration
+[global_tags]
+
+[agent]
+  interval = "30s"
+  round_interval = true
+  metric_batch_size = 5000
+  metric_buffer_limit = 100000
+  collection_jitter = "0s"
+  flush_interval = "60s"
+  flush_jitter = "0s"
+  precision = "ns"
+  debug = true
+  logtarget = "file"
+  logfile = "/tmp/telegraf-safire-inst.log"
+  # logfile_rotation_interval = "0d"
+  # logfile_rotation_max_size = "0MB"
+  # logfile_rotation_max_archives = 5
+  hostname = ""
+  omit_hostname = false
+
+
+###############################################################################
+#                            OUTPUT PLUGINS                                   #
+###############################################################################
+
+# ari.conf
+#    datatypes = ["BOLO", "IR", "picoscope", "MASS SPEC"]
+#    database:  lab_inst
+#    systems:   [atlas5, merlin, firefly]
+
+[[outputs.file]]
+  files = ["/tmp/output"]
+  data_format = "influx"
+
+[[outputs.influxdb]]
+  urls = ["http://v2:8005"]
+  database = "safire_dataq"
+  username = "data"
+  password = "telegraf"
+
+#[[outputs.influxdb]]
+#  urls = ["http://merlin:8086"]
+#  database = "starbase_inst"
+## username = "admin"
+## password = "Ni55an17"
+
+#[[outputs.influxdb_v2]]
+#  urls = ["http://firefly:8086"]
+#  token = "aq-uPMHmT3FSsG0cxLG9RkuW19pTRgEoGTKPgec7L7nwzrC9A7VzG8hwmKs3yJNVWc9dAwv54HLDAZnq6hZnEA=="
+#  organization = "Lab"
+#  bucket = "Instruments"
+
+###############################################################################
+#                            INPUT PLUGINS                                    #
+###############################################################################
+
+[[inputs.ar]]
+#   dataTypes = ["SCADA", "BOLO", "MASS SPEC", "IR"]
+#   dataTypes = ["BOLO", "IR", "MASS SPEC"]
+#   dataTypes = ["RAD100", "moon", "DST"]
+#   dataTypes = ["BOLO"]
+#   dataTypes = ["IR"]
+    dataTypes = ["SCADA"]
+#   dataTypes = ["MASS SPEC"]
+    maxLines = 100000000
+    maxFiles = 15
+    moveFiles = false
+
+#   fileName = "56FD03A3.txt" 
+#   fileName = "56FD2942.txt"
+#   fileName = "56FD2A90.txt"
+    fileName = "572B85D6.txt"
+#   fileName = "5731E79B.txt"
+#   fileName = "57348082.txt"
+#   fileName = "573B12A0.txt"
+#   fileName = "573DD2A3.txt"     # Anode Temps
+#   fileName = "57346EC4.txt"
+#   fileName = "573B122F.txt"
+#   fileName = "573B64ED.txt"
+#   fileName = "577266E3.txt"
+#   fileName = "577E7ACB.txt"
+
+#[[processors.ar]]
+

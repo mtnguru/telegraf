@@ -1,0 +1,6 @@
+rm /tmp/ar.log
+rm /tmp/ar.data
+
+cd /apps/data/analysis/20230830
+$fs/telegraf --config $fa/tsl.conf --debug --test --once
+#vi /tmp/ar.log
